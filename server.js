@@ -1,8 +1,8 @@
-import express from "express";
-import cors from "cors";
-import pkg from "./RtcTokenBuilder2.js";   // ← FILE NÀY TẢI TỪ REPO AGORA
+const express = require("express");
+const cors = require("cors");
 
-const { RtcTokenBuilder, Role: RtcRole } = pkg;
+// Import đúng file Agora (CommonJS)
+const { RtcTokenBuilder, Role: RtcRole } = require("./RtcTokenBuilder2.js");
 
 const app = express();
 app.use(cors());
