@@ -1,13 +1,11 @@
 {
-  "name": "agora-token-server",
-  "type": "module",
+  "name": "agora-token-server-v2",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "agora-access-token": "^2.0.0"
+    "cors": "^2.8.5"
   }
 }
